@@ -39,7 +39,7 @@ struct ContentView: View {
                                 .frame(width: self.getButtonWidth(), height: self.getButtonWidth())
                                 .foregroundColor(.white)
                                 .background(Color.yellow)
-                                .cornerRadius(self.getButtonWidth()/2)
+                                .cornerRadius(self.getButtonWidth())
                             
                         }
                     }
